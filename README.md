@@ -18,7 +18,7 @@ Installation
 	        </Directory>
 	    </VirtualHost>
     
- 3. DB Schema
+3. DB Schema
  
 	 	CREATE TABLE IF NOT EXISTS `messages` (
 		  `id` int(11) NOT NULL AUTO_INCREMENT,
