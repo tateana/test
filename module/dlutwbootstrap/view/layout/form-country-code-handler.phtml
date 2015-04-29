@@ -1,0 +1,12 @@
+<?php 
+$inline =  <<<JS
+    $(function(){                        
+       var addon = $('#{$inputId}').parent().find('.input-group-addon');
+
+        $('#phoneCode').change(function() {
+            var appCode = $(this).val();
+            addon.text('+' + appCode);
+        });
+    });
+JS;
+$this->inlineScript()->appendScript($inline);

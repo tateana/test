@@ -1,0 +1,16 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+form label.required::after {
+    color: #b94a48;
+    content: "*";
+    display: inline;
+}
+
+@media (min-width: 750px) {
+	form {
+	    width: 590px;
+	}
+}

@@ -1,0 +1,6 @@
+.project
+.settings/
+.buildpath
+
+/bin
+/config/autoload/*.local.php
