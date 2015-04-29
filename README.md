@@ -3,31 +3,31 @@ Installation
 
 1. Clone repo
 
-    git clone https://github.com/tateana/test.git --recursive
+    	git clone https://github.com/tateana/test.git --recursive
 
 2. Apache Setup
 
-    <VirtualHost *:80>
-        ServerName test
-        DocumentRoot /path/to/test/public
-        <Directory /path/to/test/public>
-            DirectoryIndex index.php
-            AllowOverride All
-            Order allow,deny
-            Allow from all
-        </Directory>
-    </VirtualHost>
+	    <VirtualHost *:80>
+	        ServerName test
+	        DocumentRoot /path/to/test/public
+	        <Directory /path/to/test/public>
+	            DirectoryIndex index.php
+	            AllowOverride All
+	            Order allow,deny
+	            Allow from all
+	        </Directory>
+	    </VirtualHost>
     
  3. DB Schema
  
- 	CREATE TABLE IF NOT EXISTS `messages` (
-	  `id` int(11) NOT NULL AUTO_INCREMENT,
-	  `name` varchar(50) NOT NULL,
-	  `email` varchar(50) NOT NULL,
-	  `subject` varchar(50) NOT NULL,
-	  `message` text NOT NULL,
-	  PRIMARY KEY (`id`)
-	) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+	 	CREATE TABLE IF NOT EXISTS `messages` (
+		  `id` int(11) NOT NULL AUTO_INCREMENT,
+		  `name` varchar(50) NOT NULL,
+		  `email` varchar(50) NOT NULL,
+		  `subject` varchar(50) NOT NULL,
+		  `message` text NOT NULL,
+		  PRIMARY KEY (`id`)
+		) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 	
 4. Configs in config/autoload.
 
