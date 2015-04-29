@@ -35,6 +35,6 @@ Installation
 	
 	4.2. Configure the files above
 
-5. If you use file mail transport, give write access to the "data" folder. 
+5. If you use file mail transport, give permissions to write to the "data" folder. 
 
 6. Install the intl extension. http://php.net/manual/ru/intl.setup.php
