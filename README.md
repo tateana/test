@@ -1,9 +1,9 @@
 Installation
 ------------
 
-1. clone repo
+1. Clone repo
 
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git --recursive
+    git clone https://github.com/tateana/test.git --recursive
 
 2. Apache Setup
 
@@ -31,8 +31,8 @@ Installation
 	
 4. Configs in config/autoload.
 
-4.1 Rename files db.local.php.dist.php to db.local.php and mail.local.dist.php to mail.local.php.
-4.2. Configure the files above
+	4.1 Rename files db.local.php.dist.php to db.local.php and mail.local.dist.php to mail.local.php.
+	4.2. Configure the files above
 
 5. If you use file mail transport, give write access to the "data" folder. 
 
