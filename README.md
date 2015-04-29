@@ -31,7 +31,8 @@ Installation
 	
 4. Configs in config/autoload.
 
-	4.1 Rename files db.local.php.dist.php to db.local.php and mail.local.dist.php to mail.local.php.
+	4.1 Rename files db.local.php.dist.php to db.local.php and mail.local.dist.php to mail.local.php
+	
 	4.2. Configure the files above
 
 5. If you use file mail transport, give write access to the "data" folder. 
