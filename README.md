@@ -1,3 +1,28 @@
+Task. Create a contact us page
+
+Using PHP, HMTL and JavaScript write a “contact us” page 
+
+Requirements:
+
+1. On the page a form with the following fields must be created:
+ Name* - string, 3-50 chars
+ Email* - string, valid email
+ Subject* - string, 3-50 chars.
+ Message
+
+The fields marked with * are mandatory.
+Add a submit button. 
+
+2. When the submit button is clicked, the following should happen:
+a. An email with all above defined fields should be sent to a predefined email address. In case you don’t have access to an SMTP server, mock it. 
+b. all relevant information is logged to a database
+c. the user will be informed about the success/error of the action
+
+3. Feel free to create and use your own stylesheet and layout
+4. Demonstrate MVC, OOP, Security Concepts as needed.
+The time effort of this assignment should not be more than 4 hours. The main purpose of the assignment is to create a basis for discussion of high-level concepts.
+
+
 Installation
 ------------
 
